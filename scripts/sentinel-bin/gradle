@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+printf 'BARE_GRADLE_SENTINEL_INVOKED\n' >&2
+exit 86
